@@ -28,7 +28,6 @@
 
 
 
-
 .main{
     /* background: yellow; */
     height: 100vh;
@@ -39,65 +38,16 @@
     display: flex;
 }
 
-.infoContainer{
+form{
     /* background: rgb(250, 62, 250); */
     height: 55vh;
     width: 75vw;
     margin: 120px auto;
     display: flex;
-    justify-content: space-around;
-}
-
-.devInfo{
-    display: flex;
-    justify-content: center;
+    /* justify-content: space-around; */
     flex-direction: column;
-    margin-left: 7vw;
-    font-family: 'Source Code Pro', monospace;
 }
 
-.hello{
-    font-size: 55px;
-}
-
-.name{
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.about{
-    font-size: 30px;
-}
-
-.moreAbout{
-    font-size: 20px;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight:600 ;
-    margin-top: 25px;
-}
-
-.buttons{
-    margin-top: 28px;
-}
-
-.buttons button{
-    padding: 8px 12px;
-    border-radius: 22px;
-    color: white;
-    background: darkslategrey;
-    font-weight: bold;
-    font-size: 15px;
-    margin: 0 3px;
-    cursor: pointer;
-}
-
-.buttons button:hover{
-    font-size: 17px;
-    color: darkslategray;
-    background-color: white;
-}
-
-.devPic img{
-    height: 55vh;
+form button{
+    width: 70px;
 }
